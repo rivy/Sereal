@@ -57,7 +57,7 @@ inc::Sereal::BuildTools::WriteMakefile(
         'ExtUtils::ParseXS' => '2.21',
     },
     CONFIGURE_REQUIRES => {
-        'ExtUtils::MakeMaker' => '7.0',
+        'ExtUtils::MakeMaker' => 0,
     },
     NAME              => 'Sereal::Path::Iterator',
     VERSION_FROM      => 'lib/Sereal/Path/Iterator.pm', # finds $VERSION
