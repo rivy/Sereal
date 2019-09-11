@@ -1,4 +1,4 @@
-sudo: false
+# sudo: false
 install: true
 
 language: go
@@ -35,5 +35,5 @@ perl:
     - "5.12"
     - "5.10"
 
-script: 
+script:
   - travis/all.sh
